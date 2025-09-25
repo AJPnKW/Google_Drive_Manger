@@ -1,0 +1,12 @@
+paths:
+  credentials_file: "./secrets/credentials.json"
+  token_file: "./secrets/token.json"
+  local_docs_root: "./docs"
+
+drive:
+  default_drive_folder_id: "YOUR_DRIVE_FOLDER_ID_HERE"
+  scopes:
+    - "https://www.googleapis.com/auth/drive"
+
+sync:
+  dry_run: true

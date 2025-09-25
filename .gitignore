@@ -1,0 +1,16 @@
+# Ignore Visual Studio local state
+.vs/
+.vscode/
+*.vsix
+
+# Ignore IDE index/cache DBs and Copilot indices
+**/CopilotIndices/
+**/FileContentIndex/
+*.db
+*.db-shm
+*.db-wal
+
+# OS and editor temp files
+Thumbs.db
+.DS_Store
+*.log
